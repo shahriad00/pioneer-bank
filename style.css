@@ -1,10 +1,41 @@
 body{
-    
     padding: 100px;
 }
 .submit-area{
+  
     margin: 50px 100px;
     padding: 50px;
     border-radius: 5px;
     box-shadow:5px 5px 10px gray;
+}
+
+#transection-area{
+    display : none ;
+}
+.status{
+    padding:20px;
+    border-radius: 10px;
+    color: #fff;
+    margin: auto 50px;
+    text-align: left;
+}
+
+.deposit{
+    background-color: #594ABB;
+    
+}
+
+.withdraw{
+    background-color: #F19671;
+}
+
+.balance{
+    background-color: #F09B02;
+}
+
+.transection-submit{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px 40px;
 }
